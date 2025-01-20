@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "shitfuck",
+  "version": "${version}",
+  "name": "shitfuck",
+  "description": "This mod helps you to see what are other players looking at",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/shitfuck/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.keet.shitfuck.client.ShitfuckClient"
+    ],
+    "main": [
+      "me.keet.shitfuck.Shitfuck"
+    ]
+  },
+  "mixins": [
+    "shitfuck.mixins.json",
+    {
+      "config": "shitfuck.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
