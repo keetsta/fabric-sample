@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "activated=false": {
+      "model": "shitfuck:block/prismarine_lamp"
+    },
+    "activated=true": {
+      "model": "shitfuck:block/prismarine_lamp_on"
+    }
+  }
+}

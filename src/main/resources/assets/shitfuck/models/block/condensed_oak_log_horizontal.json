@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column_horizontal",
+  "textures": {
+    "end": "shitfuck:block/condensed_oak_log_top",
+    "side": "shitfuck:block/condensed_oak_log"
+  }
+}

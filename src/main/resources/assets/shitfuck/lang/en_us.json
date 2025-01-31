@@ -5,5 +5,8 @@
   "item.shitfuck.guidite_sword": "Guidite Sword",
   "item.shitfuck.lighting_stick": "Lighting Stick",
   "itemGroup.freaky_group": "Freaky",
-  "shitfuck.counter.info": "Used %1$s times"
+  "shitfuck.counter.info": "Used %1$s times",
+  "block.shitfuck.condensed_dirt": "Condensed Dirt",
+  "block.shitfuck.condensed_oak_log": "Condensed Oak Log",
+  "block.shitfuck.prismarine_lamp": "Prismarine Lamp"
 }
