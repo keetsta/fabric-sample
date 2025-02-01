@@ -1,6 +1,8 @@
 package me.keet.shitfuck;
 
+import me.keet.shitfuck.block.ModBlockEntities;
 import me.keet.shitfuck.block.ModBlocks;
+import me.keet.shitfuck.effects.ModEffects;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -22,5 +24,7 @@ public class Shitfuck implements ModInitializer {
         ModComponents.initialize();
         ModArmorMaterials.initialize();
         ModBlocks.initialize();
+        ModEffects.initialize();
+        ModBlockEntities.initialize();
     }
 }
