@@ -67,7 +67,7 @@ public class ModBlocks {
     );
 
     public static final Block COUNTER_BLOCK = register(
-            new CounterBlock(AbstractBlock.Settings.create()), "counter_block.json", true
+            new CounterBlock(AbstractBlock.Settings.create()), "counter_block", true
     );
 
         public static void initGroups() {
